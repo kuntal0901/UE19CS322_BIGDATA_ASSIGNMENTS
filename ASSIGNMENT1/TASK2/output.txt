@@ -1,0 +1,235 @@
+kuntal@kuntal-Lenovo-YOGA-510-14ISK:~/BigData/A1/Task2$ hadoop jar /home/kuntal/hadoop-3.2.2/share/hadoop/tools/lib/hadoop-streaming-3.2.2.jar  -input /A1/US_ACCIDENT_DATA_15PERCENT.json  -output /A1/output3  -mapper "/home/kuntal/BigData/A1/Task2/mapper.py 26 -80 1"  -reducer /home/kuntal/BigData/A1/Task2/reducer.py 
+packageJobJar: [/tmp/hadoop-unjar1006109091388985418/] [] /tmp/streamjob1931223289025950512.jar tmpDir=null
+2021-09-19 20:49:54,184 INFO client.RMProxy: Connecting to ResourceManager at /127.0.0.1:8032
+2021-09-19 20:49:54,503 INFO client.RMProxy: Connecting to ResourceManager at /127.0.0.1:8032
+2021-09-19 20:49:54,889 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kuntal/.staging/job_1632060196670_0011
+2021-09-19 20:49:55,806 INFO mapred.FileInputFormat: Total input files to process : 1
+2021-09-19 20:49:56,560 INFO mapreduce.JobSubmitter: number of splits:4
+2021-09-19 20:49:57,057 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1632060196670_0011
+2021-09-19 20:49:57,059 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2021-09-19 20:49:57,371 INFO conf.Configuration: resource-types.xml not found
+2021-09-19 20:49:57,372 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2021-09-19 20:49:57,452 INFO impl.YarnClientImpl: Submitted application application_1632060196670_0011
+2021-09-19 20:49:57,503 INFO mapreduce.Job: The url to track the job: http://kuntal-Lenovo-YOGA-510-14ISK:8088/proxy/application_1632060196670_0011/
+2021-09-19 20:49:57,505 INFO mapreduce.Job: Running job: job_1632060196670_0011
+2021-09-19 20:50:06,783 INFO mapreduce.Job: Job job_1632060196670_0011 running in uber mode : false
+2021-09-19 20:50:06,785 INFO mapreduce.Job:  map 0% reduce 0%
+2021-09-19 20:50:42,282 INFO mapreduce.Job:  map 1% reduce 0%
+2021-09-19 20:51:06,483 INFO mapreduce.Job:  map 2% reduce 0%
+2021-09-19 20:51:31,705 INFO mapreduce.Job:  map 3% reduce 0%
+2021-09-19 20:52:01,884 INFO mapreduce.Job:  map 4% reduce 0%
+2021-09-19 20:52:26,058 INFO mapreduce.Job:  map 5% reduce 0%
+2021-09-19 20:52:50,175 INFO mapreduce.Job:  map 6% reduce 0%
+2021-09-19 20:53:20,335 INFO mapreduce.Job:  map 7% reduce 0%
+2021-09-19 20:53:49,456 INFO mapreduce.Job:  map 8% reduce 0%
+2021-09-19 20:54:14,582 INFO mapreduce.Job:  map 9% reduce 0%
+2021-09-19 20:54:38,715 INFO mapreduce.Job:  map 10% reduce 0%
+2021-09-19 20:55:08,857 INFO mapreduce.Job:  map 11% reduce 0%
+2021-09-19 20:55:32,957 INFO mapreduce.Job:  map 12% reduce 0%
+2021-09-19 20:56:03,073 INFO mapreduce.Job:  map 13% reduce 0%
+2021-09-19 20:56:27,160 INFO mapreduce.Job:  map 14% reduce 0%
+2021-09-19 20:56:52,273 INFO mapreduce.Job:  map 15% reduce 0%
+2021-09-19 20:57:16,349 INFO mapreduce.Job:  map 16% reduce 0%
+2021-09-19 20:57:40,438 INFO mapreduce.Job:  map 17% reduce 0%
+2021-09-19 20:58:09,536 INFO mapreduce.Job:  map 18% reduce 0%
+2021-09-19 20:58:34,619 INFO mapreduce.Job:  map 19% reduce 0%
+2021-09-19 20:58:58,711 INFO mapreduce.Job:  map 20% reduce 0%
+2021-09-19 20:59:22,790 INFO mapreduce.Job:  map 21% reduce 0%
+2021-09-19 20:59:40,846 INFO mapreduce.Job:  map 22% reduce 0%
+2021-09-19 21:00:10,938 INFO mapreduce.Job:  map 23% reduce 0%
+2021-09-19 21:00:35,014 INFO mapreduce.Job:  map 24% reduce 0%
+2021-09-19 21:01:05,108 INFO mapreduce.Job:  map 25% reduce 0%
+2021-09-19 21:01:35,209 INFO mapreduce.Job:  map 26% reduce 0%
+2021-09-19 21:01:54,271 INFO mapreduce.Job:  map 27% reduce 0%
+2021-09-19 21:02:23,363 INFO mapreduce.Job:  map 28% reduce 0%
+2021-09-19 21:02:47,437 INFO mapreduce.Job:  map 29% reduce 0%
+2021-09-19 21:03:18,529 INFO mapreduce.Job:  map 30% reduce 0%
+2021-09-19 21:03:42,605 INFO mapreduce.Job:  map 31% reduce 0%
+2021-09-19 21:04:06,678 INFO mapreduce.Job:  map 32% reduce 0%
+2021-09-19 21:04:30,752 INFO mapreduce.Job:  map 33% reduce 0%
+2021-09-19 21:04:54,823 INFO mapreduce.Job:  map 34% reduce 0%
+2021-09-19 21:05:18,899 INFO mapreduce.Job:  map 35% reduce 0%
+2021-09-19 21:05:42,966 INFO mapreduce.Job:  map 36% reduce 0%
+2021-09-19 21:06:13,046 INFO mapreduce.Job:  map 37% reduce 0%
+2021-09-19 21:06:43,133 INFO mapreduce.Job:  map 38% reduce 0%
+2021-09-19 21:07:13,275 INFO mapreduce.Job:  map 47% reduce 0%
+2021-09-19 21:07:34,359 INFO mapreduce.Job:  map 47% reduce 8%
+2021-09-19 21:07:43,384 INFO mapreduce.Job:  map 48% reduce 8%
+2021-09-19 21:08:26,542 INFO mapreduce.Job:  map 49% reduce 8%
+2021-09-19 21:09:14,689 INFO mapreduce.Job:  map 50% reduce 8%
+2021-09-19 21:09:56,824 INFO mapreduce.Job:  map 51% reduce 8%
+2021-09-19 21:10:50,977 INFO mapreduce.Job:  map 52% reduce 8%
+2021-09-19 21:11:40,112 INFO mapreduce.Job:  map 53% reduce 8%
+2021-09-19 21:12:33,261 INFO mapreduce.Job:  map 54% reduce 8%
+2021-09-19 21:13:22,401 INFO mapreduce.Job:  map 55% reduce 8%
+2021-09-19 21:14:09,528 INFO mapreduce.Job:  map 56% reduce 8%
+2021-09-19 21:14:52,649 INFO mapreduce.Job:  map 57% reduce 8%
+2021-09-19 21:15:35,750 INFO mapreduce.Job:  map 58% reduce 8%
+2021-09-19 21:16:22,861 INFO mapreduce.Job:  map 59% reduce 8%
+2021-09-19 21:17:06,125 INFO mapreduce.Job:  map 60% reduce 8%
+2021-09-19 21:17:54,244 INFO mapreduce.Job:  map 61% reduce 8%
+2021-09-19 21:18:42,356 INFO mapreduce.Job:  map 62% reduce 8%
+2021-09-19 21:19:29,539 INFO mapreduce.Job:  map 63% reduce 8%
+2021-09-19 21:20:13,668 INFO mapreduce.Job:  map 64% reduce 8%
+2021-09-19 21:21:01,947 INFO mapreduce.Job:  map 65% reduce 8%
+2021-09-19 21:21:43,041 INFO mapreduce.Job:  map 66% reduce 8%
+2021-09-19 21:22:25,137 INFO mapreduce.Job:  map 67% reduce 8%
+2021-09-19 21:23:08,235 INFO mapreduce.Job:  map 68% reduce 8%
+2021-09-19 21:23:57,382 INFO mapreduce.Job:  map 69% reduce 8%
+2021-09-19 21:24:43,488 INFO mapreduce.Job:  map 70% reduce 8%
+2021-09-19 21:25:21,569 INFO mapreduce.Job:  map 71% reduce 8%
+2021-09-19 21:26:08,686 INFO mapreduce.Job:  map 72% reduce 8%
+2021-09-19 21:26:49,964 INFO mapreduce.Job:  map 73% reduce 8%
+2021-09-19 21:27:39,161 INFO mapreduce.Job:  map 74% reduce 8%
+2021-09-19 21:27:53,205 INFO mapreduce.Job:  map 82% reduce 8%
+2021-09-19 21:27:59,219 INFO mapreduce.Job:  map 82% reduce 17%
+2021-09-19 21:28:21,266 INFO mapreduce.Job:  map 83% reduce 17%
+2021-09-19 21:29:06,374 INFO mapreduce.Job:  map 92% reduce 17%
+2021-09-19 21:29:12,390 INFO mapreduce.Job:  map 92% reduce 25%
+2021-09-19 21:29:32,441 INFO mapreduce.Job:  map 100% reduce 25%
+2021-09-19 21:29:34,447 INFO mapreduce.Job:  map 100% reduce 100%
+2021-09-19 21:29:37,459 INFO mapreduce.Job: Job job_1632060196670_0011 completed successfully
+2021-09-19 21:29:38,079 INFO mapreduce.Job: Counters: 55
+	File System Counters
+		FILE: Number of bytes read=228510
+		FILE: Number of bytes written=1640568
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=459528839
+		HDFS: Number of bytes written=1388
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Killed map tasks=3
+		Launched map tasks=6
+		Launched reduce tasks=1
+		Data-local map tasks=6
+		Total time spent by all maps in occupied slots (ms)=10620115
+		Total time spent by all reduces in occupied slots (ms)=1338935
+		Total time spent by all map tasks (ms)=10620115
+		Total time spent by all reduce tasks (ms)=1338935
+		Total vcore-milliseconds taken by all map tasks=10620115
+		Total vcore-milliseconds taken by all reduce tasks=1338935
+		Total megabyte-milliseconds taken by all map tasks=10874997760
+		Total megabyte-milliseconds taken by all reduce tasks=1371069440
+	Map-Reduce Framework
+		Map input records=435992
+		Map output records=14870
+		Map output bytes=198764
+		Map output materialized bytes=228528
+		Input split bytes=432
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=77
+		Reduce shuffle bytes=228528
+		Reduce input records=14870
+		Reduce output records=79
+		Spilled Records=29740
+		Shuffled Maps =4
+		Failed Shuffles=0
+		Merged Map outputs=4
+		GC time elapsed (ms)=2355
+		CPU time spent (ms)=465700
+		Physical memory (bytes) snapshot=1499623424
+		Virtual memory (bytes) snapshot=13692563456
+		Total committed heap usage (bytes)=898629632
+		Peak Map Physical memory (bytes)=359817216
+		Peak Map Virtual memory (bytes)=2759081984
+		Peak Reduce Physical memory (bytes)=299462656
+		Peak Reduce Virtual memory (bytes)=2809085952
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=459528407
+	File Output Format Counters 
+		Bytes Written=1388
+2021-09-19 21:29:38,079 INFO streaming.StreamJob: Output directory: /A1/output3
+kuntal@kuntal-Lenovo-YOGA-510-14ISK:~/BigData/A1/Task2$ hdfs dfs -cat /A1/output3/part-00000 
+FL	
+Aventura   26	
+Bay Harbor Islands   4	
+Belle Glade   6	
+Boca Raton   308	
+Boynton Beach   196	
+Coconut Creek   5	
+Conservation   19	
+Coral Gables   14	
+Coral Springs   17	
+Coral Springs-Margate   1	
+Cutler Bay   78	
+Dania   95	
+Davie   39	
+Deerfield Beach   124	
+Delray Beach   194	
+Doral   36	
+El Portal   1	
+Florida City   7	
+Fort Lauderdale   1709	
+Glades   1	
+Golden Beach   1	
+Greenacres   3	
+Hallandale   234	
+Hallandale Beach   14	
+Haverhill   1	
+Hialeah   923	
+Hobe Sound   1	
+Hollywood   599	
+Homestead   316	
+Jupiter   72	
+Key Biscayne   10	
+Key Largo   22	
+Lake Worth   267	
+Lake Worth Beach   17	
+Lantana   1	
+Lauderdale Lakes   3	
+Lauderhill   4	
+Loxahatchee   12	
+Margate   5	
+Medley   3	
+Miami   7340	
+Miami Beach   64	
+Miami Gardens   139	
+Miami Lakes   34	
+Miami Shores   9	
+Miami Springs   7	
+Miramar   4	
+North Bay Village   4	
+North Lauderdale   1	
+North Miami   190	
+North Miami Beach   109	
+North Palm Beach   4	
+North Westside   2	
+Oakland Park   19	
+Ochopee   9	
+Opa Locka   301	
+Palm Beach Gardens   114	
+Palmetto Bay   21	
+Parkland   1	
+Pembroke Pines   46	
+Plantation   5	
+Pompano Beach   357	
+South Bay   3	
+South Miami   12	
+Sunny Isles Beach   14	
+Sunrise   9	
+Surfside   3	
+Sweetwater   2	
+Tamarac   4	
+Upper Keys   1	
+Virginia Gardens   1	
+Wellington   11	
+West Miami   4	
+West Palm Beach   629	
+West Park   1	
+Weston   2	
+Wilton Manors   6	
+FL 14870	
+
